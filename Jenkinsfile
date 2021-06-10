@@ -1,6 +1,6 @@
 node{
 	stage('SCM Checkout'){
-	 git''
+	 git 'https://github.com/swapnapat/my-app'
     }
 	stage('Compile-Package'){
 	  sh  'mvn package'
